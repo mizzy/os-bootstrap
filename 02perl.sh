@@ -4,7 +4,7 @@ if [ ! -f ~/perl5/perlbrew/bin/perlbrew ]; then
     curl -kL http://install.perlbrew.pl | bash
 fi
 
-versions="5.16.0"
+versions="5.16.1"
 
 for i in $versions; do
     perlbrew install perl-$i
