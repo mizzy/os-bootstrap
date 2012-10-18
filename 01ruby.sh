@@ -12,7 +12,7 @@ if [ ! -d ~/.rbenv/plugins ]; then
     git clone git://github.com/sstephenson/ruby-build.git
 fi
 
-versions="1.9.3-p194"
+versions="1.9.3-p286"
 
 for i in $versions; do
     if [ ! -d ~/.rbenv/versions/$i ]; then
